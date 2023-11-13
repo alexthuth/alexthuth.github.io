@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    animation: bounce 2s infinite;
+    
+    }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color:rgb(7, 189, 22)
+}
+@keyframes bounce {
+    0% { transform: translateY(-10px);}
+    50% { transform: translateY(10px);}
+    100% { transform: translateY(-10px);}
+}
