@@ -23,3 +23,5 @@ jobs:
     - name: Deploy to GCS
       run:  |
         gsutil rsync -R . gs://www.seconds0.com
+        gsutil -m acl ch -r -u AllUsers:R gs://www.seconds0.com/**/*.html
+        gsutil -m acl ch -r -u AllUsers:R gs://www.seconds0.com/**/*.css
