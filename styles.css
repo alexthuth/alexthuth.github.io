@@ -8,10 +8,53 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     background-color: rgb(0, 0, 0);
-    color:rgb(7, 189, 22)
+    color:rgb(7, 189, 22);
+
 }
 @keyframes bounce {
     0% { transform: translateY(-10px);}
     50% { transform: translateY(10px);}
     100% { transform: translateY(-10px);}
+}
+
+a:link {
+    color: rgb(0, 123, 255); 
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(153, 102, 255); 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(255, 159, 64); 
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 99, 71); 
+}
+
+
+
+.home-button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: rgb(7, 189, 22);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.home-button:hover {
+    /* <background-color: white;> */
+    color:rgb(7, 189, 22);
+    text-decoration: none;
+
 }
