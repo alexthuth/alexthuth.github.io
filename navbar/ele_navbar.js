@@ -10,3 +10,5 @@ fetch('navbar/ele_navbar.html')
     .catch(error => {
         console.error('Fetch error:', error);
     })
+
+    //comment
